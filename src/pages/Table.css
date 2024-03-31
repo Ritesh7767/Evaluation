@@ -1,0 +1,33 @@
+table{
+    border: 3px solid black;
+    margin: 10px auto;
+    width: 70vw;
+    text-align: center;
+    font-family: monospace;
+    font-size: 16px;
+    border-color: #644ca1;
+    border-collapse: collapse;
+}
+th{
+    background-color: #644ca1;
+    color: white;
+}
+td, th{
+    border-bottom: 1px solid black;
+}
+tr:hover{
+    background-color: #b39cec;
+}
+button{
+    width: 6vw;
+    background-color: #644ca1;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 25px;
+}
+button:hover{
+    background-color: white;
+    color: #371e74;
+    font-weight: x-large;
+}

@@ -1,0 +1,23 @@
+div{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #644ca1;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+div *{
+    transition: all 0.2s;
+}
+b{
+    color: #644ca1;
+}
+p:hover, span:hover{
+    text-decoration: underline 1px solid #644ca1;
+}
+p:hover, span:hover{
+    font-size: large;
+}
+h1:hover{
+    text-decoration: underline 1px solid #644ca1;
+}
